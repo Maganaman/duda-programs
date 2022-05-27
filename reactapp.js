@@ -1,11 +1,11 @@
 (function() {
-  function drawChart(container) {
+  function drawChart(container,options) {
     Highcharts.chart(container, {
       chart: {
         type: 'bar'
       },
       title: {
-        text: 'Fruit Consumption'
+        text: options.title
       },
       xAxis: {
         categories: ['Apples', 'Bananas', 'Oranges']
