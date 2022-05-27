@@ -1,10 +1,25 @@
-<script>
-import React from "react";
-import ReactDOM from "react-dom/client";
-alert("is this working");
-function Hello(props) {
-  return <h1>Hello World this is great!!</h1>;
+function drawChart(container) {
+  Highcharts.chart(container, {
+    chart: {
+      type: 'bar'
+    },
+    title: {
+      text: 'Fruit Consumption'
+    },
+    xAxis: {
+      categories: ['Apples', 'Bananas', 'Oranges']
+    },
+    yAxis: {
+      title: {
+        text: 'Fruit eaten'
+      }
+    },
+    series: [{
+      name: 'Jane',
+      data: [1, 0, 4]
+    },{
+      name: 'John',
+      data: [5, 7, 3]
+    }]
+  });
 }
-
-ReactDOM.render(<Hello />, document.getElementById("root"));
-</script>
