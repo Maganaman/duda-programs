@@ -1,0 +1,8 @@
+<script>
+alert("is this working");
+function Hello(props) {
+  return <h1>Hello World this is great!!</h1>;
+}
+
+ReactDOM.render(<Hello />, document.getElementById("root"));
+</script>
