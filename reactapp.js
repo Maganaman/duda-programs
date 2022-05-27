@@ -1,5 +1,5 @@
 (function() {
-  function drawChart(container,options) {
+  function drawChart(container) {
     Highcharts.chart(container, {
       chart: {
         type: 'bar'
