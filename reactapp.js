@@ -6,5 +6,5 @@ function Hello(props) {
   return <h1>Hello World!</h1>;
 }
 
-ReactDOM.render(<Hello />, document.getElementById("root"));
+ReactDOM.render(<Hello All />, document.getElementById("root"));
 </script>
