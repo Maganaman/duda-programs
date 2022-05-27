@@ -1,7 +1,7 @@
 <script>
 import React from "react";
 import ReactDOM from "react-dom/client";
-Alert("is this working");
+alert("is this working");
 function Hello(props) {
   return <h1>Hello World this is great!!</h1>;
 }
