@@ -1,4 +1,4 @@
-
+<script>
 import React from "react";
 import ReactDOM from "react-dom/client";
 
@@ -7,3 +7,4 @@ function Hello(props) {
 }
 
 ReactDOM.render(<Hello />, document.getElementById("root"));
+</script>
